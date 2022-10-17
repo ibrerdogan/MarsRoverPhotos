@@ -11,7 +11,10 @@ import SwiftUI
 struct MarsRoverPhotosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                ContentView()
+            }
+            .navigationBarHidden(true)
         }
     }
 }
